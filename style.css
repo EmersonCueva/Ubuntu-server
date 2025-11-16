@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f5f5f5;
+    text-align: center;
+}
+
+header {
+    background: #003366;
+    color: white;
+    padding: 20px 0;
+}
+
+.team {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 30px 0;
+}
+
+.card {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    width: 220px;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.escudo {
+    width: 180px;
+    margin-top: 20px;
+}
+
+footer {
+    margin-top: 40px;
+    padding-bottom: 40px;
+}
