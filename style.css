@@ -29,8 +29,11 @@ header {
 
 .card img {
     width: 100%;
+    height: 250px;   /* ← define altura fija */
+    object-fit: cover;  /* ← recorta de forma estética sin deformar */
     border-radius: 8px;
 }
+
 
 .escudo {
     width: 180px;
